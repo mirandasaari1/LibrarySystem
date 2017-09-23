@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Pickup Date:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickupDateTextView"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mm/dd/yyyy"
+        android:ems="10"
+        android:id="@+id/pickupDateEditText"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:text="Pickup Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickupTimeTextView"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:ems="10"
+        android:id="@+id/pickupTimeEditText" />
+
+    <TextView
+        android:text="Return Date:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/returnDateTextView"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mm/dd/yyyy"
+        android:ems="10"
+        android:id="@+id/returnDateEditText"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:text="Return Time:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/returnTimeTextView"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:ems="10"
+        android:id="@+id/returnTimeEditText" />
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="1">-->
+
+
+            <!--<DatePicker-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="397dp"-->
+                <!--android:id="@+id/pickupDatePicker" />-->
+
+            <!--<TimePicker-->
+                <!--android:id="@+id/pickupTimePicker"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<TextView-->
+                <!--android:text="Select a time to return"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/returnTextView" />-->
+
+            <!--<DatePicker-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/returnDatePicker" />-->
+
+            <!--<TimePicker-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/returnTimePicker" />-->
+
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:onClick="sevenDayCheck" />
+
+
+</LinearLayout>
